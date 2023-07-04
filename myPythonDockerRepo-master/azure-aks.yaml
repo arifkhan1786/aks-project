@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: aks-project
-        image: aksprojectacr94.azurecr.io/arifkhan1786/aks-project:#{Build.BuildId}#
+        image: acr7july.azurecr.io/arifkhan1786/aks-project:75
         ports:
         - containerPort: 5000
 # service type loadbalancer       
