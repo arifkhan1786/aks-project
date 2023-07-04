@@ -13,7 +13,7 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: mypythondockerrepo
+      - name: aks-project
         image: aksprojectacr94.azurecr.io/arifkhan1786/aks-project:#{Build.BuildId}#
         ports:
         - containerPort: 5000
